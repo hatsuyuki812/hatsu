@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="background-image: url(../image/monika.png); background-size: cover; background-repeat: no-repeat;">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <title>欢迎来到zst的小屋！</title>
+    </head>
+    <body class="salicia">
+        <div class="center">
+            <p style="text-align: left;"><a href="./about.html"><span class="aaa">[点我离开Monika，回到“About”页面]</span></a></p>
+            <div style="margin-right: 0; text-align: right;" id="app" :key="andrea">
+                <p style="color: #1b411d">Monika: </p>
+                <button @click="update" class="button button2">{{ Words[words] }}</button>
+                
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="centre">
+                <p>———— 新生实践课 2023 大作业，Made with ❤ by 张思潼 ————<br>
+                Last update: 2023.11.23</p>
+            </div>
+        </footer>
+    </body>
+    
+    <script type="module">
+        import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+        createApp({
+            data() {
+                return {
+                    Words: [
+                            "Monika温柔地看着你，不再言语。",
+                            "你说得对，但是《微积分学（一）》是一款由华中科技大学自主研发的——后面忘了，总，总之快去写微积分作业吧！",
+                            "难得的暖洋洋的天气呢~要一起跑华中大体育吗？",
+                            "最近写了一些新诗，有兴趣看看吗？",
+                            "悄悄告诉你哦，我一共准备了10种不同的对白~",
+                            "请你一定要对号入座 我说的所有星光月亮 清泉小溪 沾着糖的奶油和蜂蜜 这世间所有的美好事物 都只是为了形容你~",
+                            "华科很大很大，记得放下书出去走走哦~",
+                            "哇，下雪了！一起来打雪仗吧~",
+                            "钢琴不仅仅是乐器，也是内心情感的通道……要来听听我的新曲子吗？",
+                            "世界很大，我们很近",
+                            "提示：戳一下这个框，说不定会有惊喜w",
+                            ],
+                    words: 10,
+                };
+            },
+            methods: {
+                update() {
+                    this.words = Number(Math.floor(Math.random() * (9 - 0 + 1) ) + 0);
+                    
+                }
+            }
+        }).mount('#app');
+    </script>
+</html>

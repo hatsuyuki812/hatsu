@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <title>欢迎来到zst的小屋！</title>
+    </head>
+    <body>
+        <div class="center">
+            <table class="salicia">
+                <thead>
+                    <tr>
+                        <th class="logo"><img src="../image/icon.png" width="32px" height="32px"> <a href="../index.html">ZST's House</a></th>
+                        <th class="headchoice"><a href="../web/about.html">About</a></th>
+                        <th class="headchoice"><a href="../web/music.html">Music</a></th>
+                        <th class="headchoice"><a href="../web/game.html">Game</a></th>
+                        <th class="headchoice"><a href="../web/chat.html">Chat</a></th>
+                        <th class="headchoice"><a href="https://sqy901.github.io/" class="emph">[Dorm]</a></th>
+                    </tr>
+                </thead>
+            </table>
+            <hr>
+            <div id="app" style="width:100%">
+                <transition-group>
+                    <div class="gaming" :key="1" v-if="awesome===0">
+                        <table border-width="0" margin="auto">
+                            <tr>
+                                <td style="width: 45%">
+                                    <div>
+                                        <img style="width: 100%" src="../image/undertale.jpg">
+                                    </div>
+                                </td>
+                                <td style="width: 55%">
+                                    <div class="intro">
+                                        <hr>
+                                        <h1 class="rev">Undertale</h1>
+                                        <p style="text-align: right;">by <u>Toby Fox et al.</u></p>
+                                        <p style="font-size: smaller; color: rgb(128, 128, 128)">「想到有朝一日老鼠能吃到奶酪……你充满了决心。」</p>
+                                        <div class="intro-rev">
+                                            <p>很久很久以前，地球由两个种族均等统治着，分别是人类和怪物。</p>
+                                            <p>一天，人类担心怪物们摧毁人类，便击碎了双方之间的和平。在近似屠杀式的侵略下，人类大获全胜。人类将怪物驱逐到地下，并设下了相当强力的魔法结界，将怪物困在伊波特山下的地底。而传说中登上伊波特山的人类没有一个活着回来过。</p>
+                                            <p>201X年，一个人类小孩登上伊波特山，发现了一个大洞，并一不小心被藤蔓绊倒跌进了洞中……</p>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="gaming" :key="2" v-else-if="awesome===1">
+                        <table border-width="0" margin="auto">
+                            <tr>
+                                <td style="width: 45%">
+                                    <div>
+                                        <img style="width: 100%" src="../image/this_war_of_mine.jpg">
+                                    </div>
+                                </td>
+                                <td style="width: 55%">
+                                    <div class="intro">
+                                        <hr>
+                                        <h1 class="rev">This War of Mine</h1>
+                                        <p style="text-align: right;">by <u>11bits Studio</u></p>
+                                        <p style="font-size: smaller; color: rgb(128, 128, 128)">「In modern war there is nothing sweet nor fitting in your dying. You will die like a dog for no good reason.」</p>
+                                        <p style="font-size: smaller; color: rgb(128, 128, 128); text-align: right"><i>——Ernest Miller Hemingway, Notes on the Next War (1935)</i></p>
+                                        <div class="intro-rev">
+                                            <p>这是一款战争游戏，但玩家扮演的不是士兵而是平民。他们在战火连连的城市中生存，在城市废墟中寻找食物、武器、零件等任何可以利用的物品。</p>
+                                            <p>游戏生动地营造了战争中平民面临的种种困境——甚至是绝望。每一个选择都不可回退，每一天都在面临生存和道德的选择。</p>
+                                            <p>所幸，游戏中即使难度再大，战争都有结束的一天。这个希望本身就有很大的力量，大到不真实。</p>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="gaming" :key="3" v-else-if="awesome===2">
+                        <table border-width="0" margin="auto">
+                            <tr>
+                                <td style="width: 45%">
+                                    <div>
+                                        <img style="width: 100%" src="../image/finding.png">
+                                    </div>
+                                </td>
+                                <td style="width: 55%">
+                                    <div class="intro">
+                                        <hr>
+                                        <h1 class="rev">Finding Paradise</h1>
+                                        <p style="text-align: right;">by <u>Kan R. Gao et al.</u></p>
+                                        <p style="font-size: smaller; color: rgb(128, 128, 128)">「我们所有的记忆，以及其中的一切……都不过是我们编给自己听的故事罢了。」</p>
+                                        <div class="intro-rev">
+                                            <p>伊娃·罗莎莉恩（Dr. Eva Rosalene）和尼尔·沃茨博士（Dr. Neil Watts）有一份非常特殊的工作：他们可以给人们重活一次的机会，从人生的最开始重头来过，当然这个机会只存在于将死之人的头脑里。</p>
+                                            <p>《寻找天堂》是《去月球》系列作品的第二部完整剧集。 这次故事跟随医生们的新病人——科林（Colin）的一生而展开，他们试图揭开这位病人一分为二的生活，实现他看上去自相矛盾的最后愿望。</p>
+                                            <p>它以虚幻而不失真实的剧情，激起玩家对生命和爱的思考。</p>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="gaming" :key="4" v-else-if="awesome===3">
+                        <table border-width="0" margin="auto">
+                            <tr>
+                                <td style="width: 45%">
+                                    <img style="width: 100%" src="../image/ori.png">
+                                </td>
+                                <td style="width: 55%">
+                                    <div class="intro">
+                                        <hr>
+                                        <h1 class="rev">Ori and the Will of Wisps</h1>
+                                        <p style="text-align: right;">by <u>Moon Studios</u></p>
+                                        <p style="font-size: smaller; color: rgb(128, 128, 128)">「如果它从未见过光芒，它还有可能逃离黑暗吗？」</p>
+                                        <div class="intro-rev">
+                                            <p>类银河恶魔城游戏集大成者。如果没有接触过类似游戏，这是一个很好的选择。</p>
+                                            <p>战斗体验极高（尽管前期操作难度较大），剧情作为冒险故事非常亮眼，美术与音乐都很突出。<del>你看我进去截的图改都不用改就能做宣传图</del></p>
+                                            <p>是收到的一份礼物，非常喜欢w</p>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="gaming" :key="5" v-else>
+                        <table border-width="0" margin="auto">
+                            <tr>
+                                <td style="width: 45%">
+                                    <div>
+                                        <img style="width: 100%" src="../image/azure.png">
+                                    </div>
+                                </td>
+                                <td style="width: 55%">
+                                    <div class="intro">
+                                        <hr>
+                                        <h1 class="rev">Across the Azure Sky</h1>
+                                        <p style="text-align: right;">by <u>Hazel D. et al.</u></p>
+                                        <p style="font-size: smaller; color: rgb(128, 128, 128)">「我们的存在如此虚幻，一如这无远弗届的天。」</p>
+                                        <div class="intro-rev">
+                                            <p>我是那个讲述故事的人。抱歉，我的声音已经有些颤抖了。我曾是一个普通的船夫，日复一日地在蔚蓝的海洋上航行，直到有一天，我决定踏上一次不同的旅程，一次寻找生命意义的旅程。</p>
+                                            <p>我跨越蔚蓝的天空，游历无数的海岸，遇见了各种各样的人，见证了他们的故事，他们各自的生命之歌。柴米油盐，生离死别，本以为已经司空见惯于那样的故事，如今看来却有别样的风味。</p>
+                                            <p>现在，我想和你分享这些故事，分享我的旅程。如果你能在我的故事中，找到自己的影子，找到你自己的故事，那就再好不过了。毕竟，生命的旅程是无尽的，而我们的故事也将永无止境。</p>
+                                            <p>那么，让我们开始吧。</p>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </transition-group>
+                <span style="float: right"><button @click="awesome = (awesome+1)%5" class="button button1">Click to Change</button></span>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="centre">
+                <p>———— 新生实践课 2023 大作业，Made with ❤ by 张思潼 ————<br>
+                Last update: 2023.11.23</p>
+            </div>
+        </footer>
+    </body>
+    <script type="module">
+        import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+        createApp({
+            data() {
+                return {
+                    awesome: 0
+                }
+            }
+        }).mount('#app')
+    </script>
+</html>

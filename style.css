@@ -1,0 +1,169 @@
+html, body {
+    font-family: 'STZhongsong', 'STSong', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    padding-left: 14px;
+    border-left: 6px solid #347936;
+}
+
+.rev {
+    padding-right: 14px;
+    border-left: none;
+    border-right: 6px solid #347936;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+    color: #347936;
+    transition-duration: 0.2s;
+}
+
+.emph {
+    color: #347936;
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    width: 50%;
+    margin: auto;
+}
+.salicia {
+    width: 100%;
+    border-width: 0;
+    margin: 0.5em auto 0.5em auto;
+    text-align: left;
+}
+.headchoice {
+    text-align: center;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 18px;
+    width: 10%;
+    margin: auto;
+}
+.headchoice:hover {
+    border-left: 3px solid #347936;
+    border-right: 3px solid #347936;
+}
+.center {
+    min-height: 100%;
+    margin: 0 auto -4rem;
+    width: 70%;
+    padding-bottom: 4rem;
+}
+.centre {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.quotation {
+    padding: 2em;
+    font-family: "STKaiti", "楷体", serif;
+    background-color: antiquewhite;
+}
+.intro {
+    margin: auto 0 auto auto;
+    padding: 1.5em;
+}
+.intro-rev {
+    text-align: left;
+}
+.footer {
+    height: 3rem;
+    margin-top: 1em auto auto;
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    color: rgb(220, 220, 220);
+    font-size: 12px;
+}
+.gaming {
+    width: 100%;
+    text-align: right;
+    border-width: 0;
+    margin: auto ;
+    padding: 1em;
+}
+
+.aaa {
+    color: white;
+}
+
+.button {
+    opacity: 0.83;
+    font-family: 'STZhongsong', 'STSong', sans-serif;
+    border-radius: 4px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    border: 2px solid #347936;
+    background-color: #347936;
+    color: white;
+}
+.button1:hover {
+    background-color: white; 
+    color: #347936; 
+    border: 2px solid #347936;
+}
+.button2 {
+    opacity: 0.65;
+    padding: 8px 16px;
+    border: 2px solid black;
+    background-color: none;
+    color: black;
+}
+.button2:hover {
+    opacity: 0.83;
+    background-color: white; 
+    color: black;
+    border: 2px solid black;
+}
+
+
+.v-enter-active
+{
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-active,
+.v-leave-to {
+  opacity: 0;
+}
+
+.mulcontainer {
+    text-align: right;
+    width: 32%;
+    min-height: 30%;
+    max-height: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mulcontainer:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 250ms;
+}
+
+.small {
+    font-size: smaller;
+}
